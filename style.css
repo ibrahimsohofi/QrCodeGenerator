@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    background-image: linear-gradient(to right, #244f61, #28515f, #2c5364);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.datafieled{
+    margin:10px auto;
+    width:45%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 1px 1px 14px rgb(95, 91, 91);
+}
+.datafieled h2{
+    margin: 6px auto  15px auto;
+    color: rgba(0, 0, 0, 0.849);
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif New Roman', Times, serif;
+}
+.datafieled p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(75, 72, 72);
+    width: 75%;
+    text-align: center;
+    align-self: center;
+}
+.qrValue{
+   outline: none;
+   height: 3em;
+   width: 90%;
+   margin: 15px;
+   color: black;
+   background-color: white;
+   border-radius: 5px;
+   border: 0.2em solid #f0f0f0;
+   font-size: 17px;
+   padding: 10px;
+}
+.datafieled .qrData{
+    display: flex;
+    align-items: center;
+    
+}
+.generateQR{
+    height: 2.8em;
+    padding: 6px;
+    width: 40%;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border:none;
+    background-color: #0a0ad8e1;
+    outline: none;
+    color: whitesmoke;
+}
+.error{
+    height: 20px;
+    color: #ff345d;
+    font-size: 20px;
+    text-align: left;
+    margin: 0px 15px;
+}
+.input-error{
+    border: 0.2em solid  #fa2a54;
+}
+.qrImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    align-self: center;
+}
+.download{
+    background-color: #04d001f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    color: white;
+    width: 45%;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 15px ;
+    border: none;
+    text-decoration: none;
+    
+}
+
+.Img{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
