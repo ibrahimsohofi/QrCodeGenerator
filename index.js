@@ -25,7 +25,7 @@ generateQR.addEventListener('click',()=>{
           fetch(img.src).then(Response=>Response.blob()).then(blob=>{
             const qrUrl = window.URL.createObjectURL(blob);
             downloadImg.href=qrUrl;
-            downloadImg.setAttribute('download','Qrcode.png');
+            downloadImg.setAttribute('download');
             window.URL.revokeObjectURL(qrUrl);
           })
         })
